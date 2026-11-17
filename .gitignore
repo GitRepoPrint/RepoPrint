@@ -1,0 +1,19 @@
+# Secrets e configuração local (tokens GitHub, credenciais Keycloak, etc.)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Overrides locais do Docker Compose
+docker-compose.override.yml
+
+# Editores e sistema
+.idea/
+.vscode/
+.DS_Store
+.claude/worktrees/
+.claude/settings.local.json
+
+# graphify
+graphify-out/

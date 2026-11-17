@@ -1,0 +1,115 @@
+html.login-pf,
+.login-pf body {
+  background: #12151c;
+  color: #f1f2f7;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.login-pf body {
+  background-image: none;
+}
+
+#kc-header-wrapper {
+  height: 48px;
+  margin-bottom: 8px;
+  font-size: 0;
+  text-indent: -9999px;
+  background: url("../img/logo.png") center / contain no-repeat;
+}
+
+.login-pf-page .card-pf {
+  background: #171b24;
+  border: 1px solid #323847;
+  border-top: 1px solid #323847;
+  border-radius: 14px;
+  box-shadow: none;
+  color: #f1f2f7;
+}
+
+#kc-page-title,
+#kc-content-wrapper h1,
+#kc-content-wrapper h2 {
+  color: #f1f2f7;
+}
+
+.login-pf-page .card-pf a,
+.login-pf-page a {
+  color: #b9a6ff;
+}
+
+.alert {
+  border-radius: 10px;
+  border: 1px solid #323847;
+  background: #1e232f;
+  color: #f1f2f7;
+}
+
+.alert-error {
+  background: #3d1f29;
+  border-color: #ff8da1;
+}
+
+.alert-error .pficon,
+.alert-error span {
+  color: #ff8da1;
+}
+
+.alert-warning {
+  background: #3a2a1c;
+  border-color: #f2b27a;
+}
+
+.alert-success {
+  background: #17332a;
+  border-color: #7fd8a8;
+}
+
+.form-control {
+  background: #1e232f;
+  border: 1px solid #4d566b;
+  border-radius: 10px;
+  color: #f1f2f7;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #b9a6ff;
+  box-shadow: 0 0 0 2px #2b2545;
+}
+
+.btn-primary,
+#kc-login,
+#kc-form-buttons .btn {
+  background: #b9a6ff;
+  border: 1px solid #b9a6ff;
+  border-radius: 10px;
+  color: #14161f;
+  font-weight: 600;
+  text-shadow: none;
+  background-image: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #cdbfff;
+  border-color: #cdbfff;
+  color: #14161f;
+}
+
+#kc-info,
+#kc-info-wrapper,
+.login-pf-signup {
+  color: #c6cbd8;
+}
+
+label,
+.control-label {
+  color: #c6cbd8;
+}
+
+#kc-error-message p,
+#kc-error-message .instruction,
+.instruction {
+  color: #c6cbd8;
+  font-size: 15px;
+}
