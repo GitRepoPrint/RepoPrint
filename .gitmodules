@@ -1,0 +1,6 @@
+[submodule "RepoPrint-Frontend"]
+	path = RepoPrint-Frontend
+	url = git@github.com:GitRepoPrint/RepoPrint-Frontend.git
+[submodule "RepoPrint-Backend"]
+	path = RepoPrint-Backend
+	url = git@github.com:GitRepoPrint/RepoPrint-Backend.git
